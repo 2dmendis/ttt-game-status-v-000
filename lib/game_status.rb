@@ -49,7 +49,7 @@ def over?(board)
 end 
 
 def winner(board)
-  if won?(board) == true && over?(board) == true 
+  if over?(board) == true 
     return won?(board)
   end 
 end
