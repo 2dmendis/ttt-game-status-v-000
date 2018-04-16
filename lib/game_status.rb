@@ -50,6 +50,8 @@ end
 
 def winner(board)
   if over?(board) == true 
-    return won?(board)
+    
+    value_1 = won?(board)[0] 
+    return value_1
   end 
 end
